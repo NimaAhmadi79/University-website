@@ -25,7 +25,7 @@ The university website project is designed to provide various functionalities in
 - **MySQL**: Database management system used for storing data such as comments, contacts, and news.
 
 ## Code Structure
-The project is organized into multiple packages and files, including classes for database operations (`Comment`, `Contact`, `CreatJsonComment`, `CreatJsonContact`, `Login`, `News`), servlets for request handling (`CommentAjaxCtl`, `GuideCtl`, `LoginCtl`), and client-side JavaScript (`comment()` function).
+The project is organized into multiple packages and files, including classes for database operations (`Comment`, `Contact`, `CreatJsonComment`, `CreatJsonContact`, `Login`, `News` , ....), servlets for request handling (`CommentAjaxCtl`, `GuideCtl`, `LoginCtl`, ...), and client-side JavaScript (`comment()` function and ...).
 
 ## Setup and Deployment
 1. **Database Setup**: Ensure MySQL is installed and configure the database connection parameters in the Java classes.
