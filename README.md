@@ -34,4 +34,5 @@ The project is organized into multiple packages and files, including classes for
 
 ## Contributors
 - Nima Ahmadi
+- Nima87760@gmail.com
 
