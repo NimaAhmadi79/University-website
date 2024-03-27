@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+         version="4.0">
+
+
+    <servlet>
+        <servlet-name>a</servlet-name>
+        <servlet-class>servlets.InviteCtl</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>a</servlet-name>
+        <url-pattern>/invite</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>b</servlet-name>
+        <servlet-class>servlets.ContactCtl</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>b</servlet-name>
+        <url-pattern>/contact</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>c</servlet-name>
+        <servlet-class>servlets.InviteAjaxCtl</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>c</servlet-name>
+        <url-pattern>/InviteAjax</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>d</servlet-name>
+        <servlet-class>servlets.ContactAjaxCtl</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>d</servlet-name>
+        <url-pattern>/ContactAjax</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>e</servlet-name>
+        <servlet-class>servlets.NewsCtl</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>e</servlet-name>
+        <url-pattern>/NewsCtl</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>f</servlet-name>
+        <servlet-class>servlets.NewsAjaxCtl</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>f</servlet-name>
+        <url-pattern>/NewsAjax</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>g</servlet-name>
+        <servlet-class>servlets.GuideCtl</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>g</servlet-name>
+        <url-pattern>/Guidectl</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>h</servlet-name>
+        <servlet-class>servlets.GuideAjaxCtl</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>h</servlet-name>
+        <url-pattern>/GuideAjax</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>i</servlet-name>
+        <servlet-class>servlets.LoginCtl</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>i</servlet-name>
+        <url-pattern>/Login</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>q</servlet-name>
+        <servlet-class>servlets.Logout</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>q</servlet-name>
+        <url-pattern>/Logout</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>o</servlet-name>
+        <servlet-class>servlets.CommentCtl</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>o</servlet-name>
+        <url-pattern>/Comment</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>j</servlet-name>
+        <servlet-class>servlets.CommentAjaxCtl</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>j</servlet-name>
+        <url-pattern>/CommentAjax</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>u</servlet-name>
+        <servlet-class>servlets.IndexInfoAjaxCtl</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>u</servlet-name>
+        <url-pattern>/IndexInfoAjax</url-pattern>
+    </servlet-mapping>
+
+
+
+
+</web-app>
